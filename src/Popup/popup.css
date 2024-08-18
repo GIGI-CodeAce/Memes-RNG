@@ -1,0 +1,73 @@
+main{
+    color: white;
+}
+.popup-container {
+    position: fixed;
+    text-align: center;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    padding: 10px;
+    border-radius: 10px;
+    width: 500px;
+    height: 380px;
+    border: 4px solid black;
+    background-color: hsl(0, 0%, 15%);
+    z-index: 1001;
+}
+
+.popup-container p,
+.popup-container h1,
+.popup-container div{
+    background-color: hsl(0, 0%, 18%) ;
+    border-radius: 5px;
+    padding: 5px;
+}
+.blur{
+    position: fixed;
+    width: 100%;
+    height: 111%;
+    background-color: rgba(0, 0, 0, 0.9);
+    z-index: 1000;
+}
+.rareRoll{
+    position: fixed;
+    width: 100%;
+    height: 111%;
+    background-color: rgba(0, 0, 0, 0.7);
+    z-index: 100;
+}
+.howTo{
+    margin-top: 10px;
+    line-height: 1px;
+}
+.howTo p{
+    font-family: 'Comic Neue',  'Luckiest Guy', cursive;
+}
+u{
+background-color:hsl(0, 0%, 13%);
+padding: 2px;
+
+}
+.howToPlay{
+    background-color: hsl(0, 0%, 10%);
+}
+
+#exit-settings{
+    position: absolute;
+    left: 92.6%;
+    top: 6%;
+    padding: 7px 11px 7px 11px;
+    float: right;
+    margin-right: 5px;
+    border-radius: 50%;
+    border: 1px solid black;
+    color: white;
+    background-color: hsl(0, 0%, 12%);
+}
+#exit-settings:active{
+  background-color: hsl(284, 35%, 15%);
+}
+#exit-settings:hover{
+    color: hsl(0, 0%, 70%)
+}

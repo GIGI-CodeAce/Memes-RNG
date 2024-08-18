@@ -1,0 +1,55 @@
+
+/* popup */
+
+
+@media only screen and (max-width: 600px) {
+    body .popup-container{
+        width: 310px;
+    }
+    body #exit-settings{
+        left: 89%;
+    }
+    body #big{
+        font-size: 10px;
+    }
+
+}
+
+/* index */
+
+@media only screen and (max-width: 600px) {
+    body #title{
+      font-size: 13px;
+    }
+    body .descriptions,
+    body .moreInfo{
+      font-size: 12px;
+    }
+    body, .card-list{
+      grid-template-columns: repeat(auto-fit, minmax(180px, 1fr));
+    }
+    body .chance, 
+    body .obtained{
+      font-size: 11px;
+      height: 8px;
+    }
+    body .Common,
+    body .Rare,
+    body .Legendary,
+    body .Unique,
+    body .Supreme {
+      width: 188px;
+      height: 250px;
+    }
+  } 
+
+  /* navbar */
+
+  @media only screen and (max-width: 600px) {
+    body #time{
+      font-size: 10px;
+    }
+    body #timePlayed{
+      font-size: 12px;
+    }
+  }
