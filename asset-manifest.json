@@ -1,0 +1,13 @@
+{
+  "files": {
+    "main.css": "/Memes-RNG/static/css/main.6017e59b.css",
+    "main.js": "/Memes-RNG/static/js/main.7f9290ac.js",
+    "index.html": "/Memes-RNG/index.html",
+    "main.6017e59b.css.map": "/Memes-RNG/static/css/main.6017e59b.css.map",
+    "main.7f9290ac.js.map": "/Memes-RNG/static/js/main.7f9290ac.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.6017e59b.css",
+    "static/js/main.7f9290ac.js"
+  ]
+}
