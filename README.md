@@ -2,6 +2,8 @@ Memes RNG is a meme-filled game where random events and internet humor collide f
 
 ![image](https://github.com/user-attachments/assets/a47dbfba-a0a4-42f7-93de-b8a5aeee1c45)
 
+Many different cards depending each on their chance and rarity
+
 ![image](https://github.com/user-attachments/assets/1805d5f1-5b6a-4402-a5e3-46b764c80f0a)
 
 ![image](https://github.com/user-attachments/assets/f48a148a-d35a-46ac-9cc5-adc4a979999d)
