@@ -1,18 +1,18 @@
-<<<<<<< HEAD
 
-Memes RNG 
-a meme-filled game where random events and internet humor collide for unpredictable, have a gameplay experience and test out your luck with all of the big rarity's
+<h1 align="center" id="title">MEMES RNG</h1>
 
+<p align="center"><img src="https://raw.githubusercontent.com/GIGIsOtherStuff/MRNGmedia/main/Media/RNGlogo.png" alt="project-image"></p>
 
-![roll]([https://](https://raw.githubusercontent.com/GIGIsOtherStuff/MRNGmedia/main/Media/CardImages/READMEmedia/roll.png))
-=======
-Memes RNG is a meme-filled game where random events and internet humor collide for unpredictable, have a gameplay experience and test out your luck with all of the big rarity's
+<p id="description">A meme-filled game where random events and internet humor collide for unpredictable! Have a gameplay experience and test out your luck with all of the big rarity's</p>
 
-![image](https://github.com/user-attachments/assets/a47dbfba-a0a4-42f7-93de-b8a5aeee1c45)
+<h2 align="center">Play here</h2>
 
-Many different cards depending each on their chance and rarity
+[https://gigi-codeace.github.io/Memes-RNG/](https://gigi-codeace.github.io/Memes-RNG/)
 
-![image](https://github.com/user-attachments/assets/1805d5f1-5b6a-4402-a5e3-46b764c80f0a)
+<h2 align="center">Project Screenshots:</h2>
 
-![image](https://github.com/user-attachments/assets/f48a148a-d35a-46ac-9cc5-adc4a979999d)
->>>>>>> 9f1d14968abde7a854bc27852cb453504ac45e82
+<img src="https://raw.githubusercontent.com/GIGIsOtherStuff/MRNGmedia/main/Media/READMEmedia/roll.png" alt="project-screenshot" width="155" height="400/">
+
+<img src="https://raw.githubusercontent.com/GIGIsOtherStuff/MRNGmedia/main/Media/READMEmedia/supremes.png" alt="project-screenshot" width="400" height="400/">
+
+<img src="https://raw.githubusercontent.com/GIGIsOtherStuff/MRNGmedia/main/Media/READMEmedia/uniques.png" alt="project-screenshot" width="559" height="400/">
