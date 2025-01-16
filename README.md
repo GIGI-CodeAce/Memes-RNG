@@ -50,11 +50,11 @@ const getRandomCard = () => {
  <img src="https://raw.githubusercontent.com/GIGIsOtherStuff/MRNGmedia/main/Media/READMEmedia/supremes.png" alt="project-screenshot" width="500" height="400">
   <img src="https://raw.githubusercontent.com/GIGIsOtherStuff/MRNGmedia/main/Media/READMEmedia/uniques.png" alt="project-screenshot" width="800" height="400">
 </div>
-   <img src="https://raw.githubusercontent.com/GIGIsOtherStuff/MRNGmedia/main/Media/READMEmedia/cards.png" alt="project-screenshot" width="800" height="400">
+   <img src="https://raw.githubusercontent.com/GIGIsOtherStuff/MRNGmedia/main/Media/READMEmedia/cards.png" alt="project-screenshot" width="790" height="400">
 <footer>
-   https://www.gigicodeace.com
-   https://www.linkedin.com/in/dobre-robert-03653b331/
-   <a href="https://www.gigicodeace.com"><span>Portfolio</span></a>
-   <a href="https://www.linkedin.com/in/dobre-robert-03653b331/"><span>LinkedIn</span></a><b></b>
+   <a href="https://www.gigicodeace.com" target="_blank" rel="noopener noreferrer">Portfolio</a>
+  <a style="color: rgb(62, 62, 255);" href="https://www.linkedin.com/in/dobre-robert-03653b331/" target="_blank" rel="noopener noreferrer">LinkedIn</a>
+  <a style="color:rgb(47, 47, 47)" href=" https://github.com/GIGI-CodeAce" target="_blank" rel="noopener noreferrer">Github</a>
+  <b></b>
    <h4>~GIGI <code>Dore Robert</code></h4>
 </footer>
