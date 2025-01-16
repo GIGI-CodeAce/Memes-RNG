@@ -14,17 +14,6 @@
   <a href="https://gigi-codeace.github.io/Memes-RNG/">github.io/Memes-RNG</a>
 </div>
 
-<h2 align="center">Project Screenshots:</h2>
-
-<div align="center">
-  <img src="https://raw.githubusercontent.com/GIGIsOtherStuff/MRNGmedia/main/Media/READMEmedia/roll.png" alt="project-screenshot" width="200" height="400">
-  <img src="https://raw.githubusercontent.com/GIGIsOtherStuff/MRNGmedia/main/Media/READMEmedia/supremes.png" alt="project-screenshot" width="400" height="400">
-</div>
-
-<div align="center">
-  <img src="https://raw.githubusercontent.com/GIGIsOtherStuff/MRNGmedia/main/Media/READMEmedia/uniques.png" alt="project-screenshot" width="559" height="400">
-</div>
-
 <h2 align="center">🧐 Features</h2>
 
 <h4>Here're some of the project's best features</h4>
@@ -51,4 +40,13 @@ const getRandomCard = () => {
   return null;
 };
 ```
+<h2 align="center">Project Screenshots:</h2>
 
+<div align="center">
+  <img src="https://raw.githubusercontent.com/GIGIsOtherStuff/MRNGmedia/main/Media/READMEmedia/roll.png" alt="project-screenshot" width="250" height="400">
+  <img src="https://raw.githubusercontent.com/GIGIsOtherStuff/MRNGmedia/main/Media/READMEmedia/supremes.png" alt="project-screenshot" width="450" height="400">
+</div>
+
+<div align="center">
+  <img src="https://raw.githubusercontent.com/GIGIsOtherStuff/MRNGmedia/main/Media/READMEmedia/uniques.png" alt="project-screenshot" width="630" height="400">
+</div>
