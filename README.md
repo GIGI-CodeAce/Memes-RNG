@@ -18,6 +18,8 @@
 
 <h4>Here're some of the project's best features</h4>
 
+*   Cards collection index,
+*   Exclusive roll animations depending on rolled rarity,
 *   An RNG engine for card randomization in function card of rarity:
 
 ```javascript
@@ -41,12 +43,11 @@ const getRandomCard = () => {
 };
 ```
 <h2 align="center">Project Screenshots:</h2>
-
 <div align="center">
-  <img src="https://raw.githubusercontent.com/GIGIsOtherStuff/MRNGmedia/main/Media/READMEmedia/roll.png" alt="project-screenshot" width="250" height="400">
-  <img src="https://raw.githubusercontent.com/GIGIsOtherStuff/MRNGmedia/main/Media/READMEmedia/supremes.png" alt="project-screenshot" width="450" height="400">
+<div>
+  <img src="https://raw.githubusercontent.com/GIGIsOtherStuff/MRNGmedia/main/Media/READMEmedia/roll.png" alt="project-screenshot" width="400" height="500">
 </div>
-
-<div align="center">
-  <img src="https://raw.githubusercontent.com/GIGIsOtherStuff/MRNGmedia/main/Media/READMEmedia/uniques.png" alt="project-screenshot" width="630" height="400">
+ <img src="https://raw.githubusercontent.com/GIGIsOtherStuff/MRNGmedia/main/Media/READMEmedia/supremes.png" alt="project-screenshot" width="500" height="400">
+  <img src="https://raw.githubusercontent.com/GIGIsOtherStuff/MRNGmedia/main/Media/READMEmedia/uniques.png" alt="project-screenshot" width="800" height="400">
 </div>
+   <img src="https://raw.githubusercontent.com/GIGIsOtherStuff/MRNGmedia/main/Media/READMEmedia/cards.png" alt="project-screenshot" width="800" height="400">
