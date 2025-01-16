@@ -1,4 +1,3 @@
-  
 <h1 align="center" id="title">MEMES RNG</h1>
 
 <p align="center">
@@ -25,13 +24,15 @@
 <div align="center">
   <img src="https://raw.githubusercontent.com/GIGIsOtherStuff/MRNGmedia/main/Media/READMEmedia/uniques.png" alt="project-screenshot" width="559" height="400">
 </div>
-<div align="center">
-  <h2 align="center">🧐 Features</h2>
+
+<h2 align="center">🧐 Features</h2>
 
 <h4>Here're some of the project's best features</h4>
 
-*   An RNG engine for card randomization in function card of rarity
-<code>  const parseChance = (chance) => {
+*   An RNG engine for card randomization in function card of rarity:
+
+```javascript
+const parseChance = (chance) => {
   const parts = chance.split(' in ');
   return parts.length === 2 ? (1 / parseInt(parts[1], 10)) : 0;
 };
@@ -48,5 +49,6 @@ const getRandomCard = () => {
     }
   }
   return null;
-};</code>
-</div>
+};
+```
+
