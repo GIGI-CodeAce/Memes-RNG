@@ -51,3 +51,10 @@ const getRandomCard = () => {
   <img src="https://raw.githubusercontent.com/GIGIsOtherStuff/MRNGmedia/main/Media/READMEmedia/uniques.png" alt="project-screenshot" width="800" height="400">
 </div>
    <img src="https://raw.githubusercontent.com/GIGIsOtherStuff/MRNGmedia/main/Media/READMEmedia/cards.png" alt="project-screenshot" width="800" height="400">
+<footer>
+   https://www.gigicodeace.com
+   https://www.linkedin.com/in/dobre-robert-03653b331/
+   <a href="https://www.gigicodeace.com"><span>Portfolio</span></a>
+   <a href="https://www.linkedin.com/in/dobre-robert-03653b331/"><span>LinkedIn</span></a><b></b>
+   <h4>~GIGI <code>Dore Robert</code></h4>
+</footer>
