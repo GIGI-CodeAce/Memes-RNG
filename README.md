@@ -52,9 +52,9 @@ const getRandomCard = () => {
   <img src="https://raw.githubusercontent.com/GIGIsOtherStuff/MRNGmedia/main/Media/READMEmedia/cards.png" alt="project-screenshot" width="790" height="400">
 </div>
 
-[![Portfolio](https://via.placeholder.com/150/62b1ff/ffffff?text=Portfolio)](https://www.gigicodeace.com)
-[![LinkedIn](https://via.placeholder.com/150/3e3eff/ffffff?text=LinkedIn)](https://www.linkedin.com/in/dobre-robert-03653b331/)
-[![GitHub](https://via.placeholder.com/150/2f2f2f/ffffff?text=GitHub)](https://github.com/GIGI-CodeAce)
+[![Portfolio](https://img.shields.io/badge/Portfolio-62b1ff?style=for-the-badge&logo=web&logoColor=white)](https://www.gigicodeace.com)
+[![LinkedIn](https://img.shields.io/badge/LinkedIn-3e3eff?style=for-the-badge&logo=linkedin&logoColor=white)](https://www.linkedin.com/dobre-robert-03653b331/)
+[![GitHub](https://img.shields.io/badge/GitHub-2f2f2f?style=for-the-badge&logo=github&logoColor=white)](https://github.comGIGI-CodeAce)
   <b></b>
    <h4>~GIGI <code>Dore Robert</code></h4>
 </footer>
