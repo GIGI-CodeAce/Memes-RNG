@@ -18,11 +18,13 @@
 
 <h4>Here're some of the project's best features</h4>
 
-*   Cards collection index,
-*   Exclusive roll animations depending on rolled rarity,
+*   Famous memes from all around the world
+*   Cards collection index
+*   Exclusive roll animations depending on rolled rarity
 *   An RNG engine for card randomization in function card of rarity:
 
 ```javascript
+// ...
 const parseChance = (chance) => {
   const parts = chance.split(' in ');
   return parts.length === 2 ? (1 / parseInt(parts[1], 10)) : 0;
@@ -41,15 +43,16 @@ const getRandomCard = () => {
   }
   return null;
 };
+// ...
 ```
 <h2 align="center">Project Screenshots:</h2>
 <div align="center">
 <div>
   <img src="https://raw.githubusercontent.com/GIGIsOtherStuff/MRNGmedia/main/Media/READMEmedia/roll.png" alt="project-screenshot" width="400" height="500">
 </div>
- <img src="https://raw.githubusercontent.com/GIGIsOtherStuff/MRNGmedia/main/Media/READMEmedia/supremes.png" alt="project-screenshot" width="500" height="400">
-  <img src="https://raw.githubusercontent.com/GIGIsOtherStuff/MRNGmedia/main/Media/READMEmedia/uniques.png" alt="project-screenshot" width="800" height="400">
-  <img src="https://raw.githubusercontent.com/GIGIsOtherStuff/MRNGmedia/main/Media/READMEmedia/cards.png" alt="project-screenshot" width="790" height="400">
+ <img src="https://raw.githubusercontent.com/GIGIsOtherStuff/MRNGmedia/main/Media/READMEmedia/supremes.png" alt="project-screenshot"  style="width: 100%; height: 400px">
+  <img src="https://raw.githubusercontent.com/GIGIsOtherStuff/MRNGmedia/main/Media/READMEmedia/uniques.png" alt="project-screenshot" style="width: 100%; height: 400px">
+  <img src="https://raw.githubusercontent.com/GIGIsOtherStuff/MRNGmedia/main/Media/READMEmedia/cards.png" alt="project-screenshot" style="width: 100%; height: 400px">
 </div><br></br>
 
 [![Portfolio](https://img.shields.io/badge/Portfolio-62b1ff?style=for-the-badge&logo=web&logoColor=white)](https://www.gigicodeace.com)
