@@ -48,10 +48,13 @@ const getRandomCard = () => {
 <h2 align="center">Project Screenshots:</h2>
 <div align="center">
 <div>
+<h3>Rolling</h3>
   <img src="https://raw.githubusercontent.com/GIGIsOtherStuff/MRNGmedia/main/Media/READMEmedia/roll.png" alt="project-screenshot" width="400" height="500">
 </div>
+<h3>Rare undiscovered cards</h3>
  <img src="https://raw.githubusercontent.com/GIGIsOtherStuff/MRNGmedia/main/Media/READMEmedia/supremes.png" alt="project-screenshot"  style="width: 100%; height: 400px">
   <img src="https://raw.githubusercontent.com/GIGIsOtherStuff/MRNGmedia/main/Media/READMEmedia/uniques.png" alt="project-screenshot" style="width: 100%; height: 400px">
+<h3>Few samples</h3>
   <img src="https://raw.githubusercontent.com/GIGIsOtherStuff/MRNGmedia/main/Media/READMEmedia/cards.png" alt="project-screenshot" style="width: 100%; height: 400px">
 </div><br></br>
 
