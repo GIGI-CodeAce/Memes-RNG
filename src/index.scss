@@ -43,10 +43,6 @@ body{
     padding: 5px 25px 4px 25px;
     font-size: 14px;
   }
-  .chance, .obtained{
-    font-size: 13px;
-    height: 8px;
-  }
   .discovered{
     padding-top: 3px;
     opacity: 0.7;
@@ -70,9 +66,6 @@ body{
   #indexBack{
     background-color: hsl(0, 0%, 6%);
   }
-  .Supreme #title {
-    padding-top: 2px;
-  }
   
   /* index cards */
   
@@ -90,6 +83,10 @@ body{
   }
   .Supreme{
     background: url('https://raw.githubusercontent.com/GIGIsOtherStuff/MRNGmedia/main/Media/CardImages/Raritys/supremeCard.png');
+
+    .Supreme #title {
+      padding-top: 2px;
+    }
   }
   
   .Common:hover, .Rare:hover, .Legendary:hover, .Unique:hover, .Supreme:hover {
