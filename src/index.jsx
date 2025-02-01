@@ -6,7 +6,7 @@ import { SurfaceCard } from "./CardsData/Card.jsx";
 import Time from './timePlayed';
 import { SupremeAnimation, UniqueAnimation, LegendaryAnimation } from './Animations.jsx';
 import './index.scss';
-import './Mobile.css';
+import './Mobile.scss';
 
 const Index = () => {
   const { Cards, rollCard, selectedCard, rolls } = useSavedCards();
