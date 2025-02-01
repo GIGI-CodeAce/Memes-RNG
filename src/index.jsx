@@ -1,11 +1,11 @@
 import React, { useEffect, useState } from 'react';
-import './surface.css';
+import './surface.scss';
 import { Card } from './CardsData/Card.jsx'; 
 import useSavedCards from './CardsData/cardsLocal.jsx';
 import { SurfaceCard } from "./CardsData/Card.jsx";
 import Time from './timePlayed';
 import { SupremeAnimation, UniqueAnimation, LegendaryAnimation } from './Animations.jsx';
-import './index.css';
+import './index.scss';
 import './Mobile.css';
 
 const Index = () => {

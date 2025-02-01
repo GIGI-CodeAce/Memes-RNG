@@ -1,8 +1,5 @@
-#blend {
-    background-color: hsl(0, 0%, 8%);
-    height: 50px;
-  }
-  
+
+
   .mainRoll{
     display: flex;
     flex-direction: column;
@@ -13,15 +10,32 @@
     background-color: hsl(0, 0%, 11%);
     text-align: center;
     z-index: 1002;
+
+    .card-ui {
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      width: 210px;
+      height: 300px; 
+      z-index: 101;
+    }
+  
+    .rolledCard {
+      width: 100%;
+      height: 100%;
+      object-fit: cover;
+  
+    }
   }
 
-  #RNGlogo{
-    width: 50px;
-    text-align: start;
-    z-index: 1002;
-  }
   .logoContainer{
     background-color: hsl(0, 0%, 11%);
+
+    #RNGlogo{
+      width: 50px;
+      text-align: start;
+      z-index: 1002;
+    }
   }
   
   #roll {
@@ -40,25 +54,20 @@
    #roll:hover{
     border-style:dashed;
   }
-  
-  .card-ui {
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    width: 210px;
-    height: 300px; 
-    z-index: 101;
-  }
-
-  .rolledCard {
-    width: 100%;
-    height: 100%;
-    object-fit: cover;
-
-  }
 
   .card-container {
     position: relative;
+
+  }
+  #index{
+    color: whitesmoke;
+    text-align: center;
+    padding: 30px;
+    background-color: hsl(0, 0%, 6%);
+    user-select: none;
+  }
+  #index:hover{
+    cursor: pointer;
   }
   
   #newCard {
