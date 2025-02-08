@@ -43,7 +43,7 @@ export function Card(props) {
         'https://raw.githubusercontent.com/GIGIsOtherStuff/MRNGmedia/main/Media/CardImages/questionMark.png')}
     alt={props.title}
       />
-      <p
+        <p
         className="chance"
         id={
           props.rarity === 'Supreme' ? 'supremeGlow' :
