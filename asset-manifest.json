@@ -1,13 +1,13 @@
 {
   "files": {
-    "main.css": "/Memes-RNG/static/css/main.6fe82b2b.css",
+    "main.css": "/Memes-RNG/static/css/main.b6ce2bed.css",
     "main.js": "/Memes-RNG/static/js/main.7f9290ac.js",
     "index.html": "/Memes-RNG/index.html",
-    "main.6fe82b2b.css.map": "/Memes-RNG/static/css/main.6fe82b2b.css.map",
+    "main.b6ce2bed.css.map": "/Memes-RNG/static/css/main.b6ce2bed.css.map",
     "main.7f9290ac.js.map": "/Memes-RNG/static/js/main.7f9290ac.js.map"
   },
   "entrypoints": [
-    "static/css/main.6fe82b2b.css",
+    "static/css/main.b6ce2bed.css",
     "static/js/main.7f9290ac.js"
   ]
 }
