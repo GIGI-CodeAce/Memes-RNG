@@ -26,6 +26,12 @@
     font-size: 12px;
   }
 
+  body .card-list {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 5px;
+  }
+
   body .chance, 
   body .obtained {
     font-size: 11px;
@@ -40,13 +46,9 @@
     width: 188px;
     height: 250px;
   }
-
-  .card-list {
-    display: grid;
-    grid-template-columns: repeat(2, 1fr);
-    gap: 5px;
-  }
 }
+
+
   /* navbar */
 
   @media only screen and (max-width: 600px) {
