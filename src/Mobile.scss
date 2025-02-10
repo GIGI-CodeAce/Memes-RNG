@@ -15,32 +15,38 @@
 
 /* index */
 
-@media only screen and (max-width: 600px) {
-    body #title{
-      font-size: 13px;
-    }
-    body .descriptions,
-    body .moreInfo{
-      font-size: 12px;
-    }
-    body, .card-list{
-      grid-template-columns: repeat(auto-fit, minmax(180px, 1fr));
-    }
-    body .chance, 
-    body .obtained{
-      font-size: 11px;
-      height: 4px;
-    }
-    body .Common,
-    body .Rare,
-    body .Legendary,
-    body .Unique,
-    body .Supreme {
-      width: 188px;
-      height: 250px;
-    }
-  } 
 
+@media only screen and (max-width: 600px) {
+  body #title {
+    font-size: 13px;
+  }
+
+  body .descriptions,
+  body .moreInfo {
+    font-size: 12px;
+  }
+
+  body .chance, 
+  body .obtained {
+    font-size: 11px;
+    height: 4px;
+  }
+
+  body .Common,
+  body .Rare,
+  body .Legendary,
+  body .Unique,
+  body .Supreme {
+    width: 188px;
+    height: 250px;
+  }
+
+  .card-list {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 5px;
+  }
+}
   /* navbar */
 
   @media only screen and (max-width: 600px) {
