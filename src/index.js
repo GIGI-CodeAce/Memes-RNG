@@ -1,14 +1,14 @@
 import React from 'react';
 import ReactDOM from 'react-dom/client';
-import Index from './index.jsx'
-import Popup from './Popup/popup.jsx';
+import CardsIndex from "./cardsIndex.tsx"
+import Popup from './Popup/popup';
 
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
     root.render(
         <>
             <Popup/>
-            <Index />
+            <CardsIndex/>
         </>
 
     );

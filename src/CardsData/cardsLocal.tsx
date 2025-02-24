@@ -1,7 +1,7 @@
 import { useState, useEffect } from 'react';
 import GetCards from './CardsInfo';
 
-const useSavedCards = () => {
+const UseSavedCards = () => {
   const initialCards = () => {
     const savedCards = localStorage.getItem('cards');
     return savedCards ? JSON.parse(savedCards) : GetCards();
@@ -59,7 +59,6 @@ const useSavedCards = () => {
           )
         );
 
-
         rollsIncrease();
 
         setSelectedCard(rolledCard);
@@ -77,4 +76,4 @@ const useSavedCards = () => {
   };
 };
 
-export default useSavedCards;
+export default UseSavedCards;

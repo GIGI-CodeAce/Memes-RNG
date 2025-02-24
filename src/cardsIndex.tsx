@@ -1,25 +1,25 @@
 import React, { useEffect, useState } from 'react';
 import './surface.scss';
-import { Card } from './CardsData/Card.js'; 
-import useSavedCards from './CardsData/cardsLocal.js';
-import { SurfaceCard } from "./CardsData/Card.js";
+import { Card } from './CardsData/Card'; 
+import UseSavedCards from './CardsData/cardsLocal';
+import { SurfaceCard } from "./CardsData/Card";
 import Time from './timePlayed';
-import { SupremeAnimation, UniqueAnimation, LegendaryAnimation } from './Animations.js';
+import { SupremeAnimation, UniqueAnimation, LegendaryAnimation } from './Animations.tsx';
 import './index.scss';
 import './Mobile.scss';
 
- function Index(){
-  const { Cards, rollCard, selectedCard, rolls }:any = useSavedCards();
-  const [indexUi, setIndexUi] = useState(true);
+ function CardsIndex(){
+  const { Cards, rollCard, selectedCard, rolls }:any = UseSavedCards();
+  const [indexUi, setIndexUi] = useState(true)
   const [rareRollColor, setRareRollColor] = useState('black');
   const [backColor, setBackColor] = useState('hsl(0, 0%, 11%)');
   const [rareRollStatus, setRareRollStatus] = useState('none');
   const [btnBackCol, setBtnBackCol] = useState('hsl(0, 0%, 96%)');
   const [rolCool, setRolCool] = useState(true);
+  
   type num= number
-
   type CardItem = {
-    id: string; // or number depending on your use case
+    id: string;
     img: string;
     rarity: string;
     chance: number;
@@ -164,4 +164,4 @@ import './Mobile.scss';
   );
 };
 
-export default Index;
+export default CardsIndex;

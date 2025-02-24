@@ -1,14 +1,16 @@
 {
   "compilerOptions": {
-    "jsx": "react-jsx", // or "preserve" or "react"
+    "jsx": "react-jsx",  // or "preserve" or "react"
     "lib": ["dom", "esnext"],
     "module": "esnext",
-    "moduleResolution": "Node",
+    "moduleResolution": "bundler",  // <-- Change to 'bundler'
+    "allowImportingTsExtensions": true,  // <-- Allow TS file imports
     "target": "es6",
     "strict": true,
     "esModuleInterop": true,
     "skipLibCheck": true,
-    "forceConsistentCasingInFileNames": true
+    "forceConsistentCasingInFileNames": true,
+    "noEmit": true  // <-- Set to true to disable JavaScript emission
   },
   "include": ["**/*.ts", "**/*.tsx"]
 }

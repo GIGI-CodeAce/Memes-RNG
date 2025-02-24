@@ -2,7 +2,7 @@ import React, { useEffect, useState } from 'react';
 import './popup.scss'
 
 function Popup(){
-
+    type num = number
     let [newUser, setNewUser] =  useState(() => {
 
         const savedValues = localStorage.getItem('value');
@@ -10,7 +10,7 @@ function Popup(){
       });
 
     function closePop(){
-        setNewUser((oldValue) => !oldValue)
+        setNewUser((oldValue:num) => !oldValue)
         
     }
 
