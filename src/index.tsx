@@ -1,21 +1,33 @@
 import React, { useEffect, useState } from 'react';
 import './surface.scss';
-import { Card } from './CardsData/Card.jsx'; 
-import useSavedCards from './CardsData/cardsLocal.jsx';
-import { SurfaceCard } from "./CardsData/Card.jsx";
+import { Card } from './CardsData/Card.js'; 
+import useSavedCards from './CardsData/cardsLocal.js';
+import { SurfaceCard } from "./CardsData/Card.js";
 import Time from './timePlayed';
-import { SupremeAnimation, UniqueAnimation, LegendaryAnimation } from './Animations.jsx';
+import { SupremeAnimation, UniqueAnimation, LegendaryAnimation } from './Animations.js';
 import './index.scss';
 import './Mobile.scss';
 
-const Index = () => {
-  const { Cards, rollCard, selectedCard, rolls } = useSavedCards();
+ function Index(){
+  const { Cards, rollCard, selectedCard, rolls }:any = useSavedCards();
   const [indexUi, setIndexUi] = useState(true);
   const [rareRollColor, setRareRollColor] = useState('black');
   const [backColor, setBackColor] = useState('hsl(0, 0%, 11%)');
   const [rareRollStatus, setRareRollStatus] = useState('none');
   const [btnBackCol, setBtnBackCol] = useState('hsl(0, 0%, 96%)');
   const [rolCool, setRolCool] = useState(true);
+  type num= number
+
+  type CardItem = {
+    id: string; // or number depending on your use case
+    img: string;
+    rarity: string;
+    chance: number;
+    title: string;
+    desc: string;
+    discovered: boolean;
+  };
+  
 
   useEffect(() => {
     if (selectedCard && ['Unique', 'Supreme'].includes(selectedCard.rarity)) {
@@ -51,7 +63,7 @@ const Index = () => {
   });
   
   function updateMemes() {
-    setMemes((oldCount) => oldCount + 1);
+    setMemes((oldCount:num) => oldCount + 1);
   }
 
   useEffect(() => {
@@ -124,7 +136,7 @@ const Index = () => {
       </div>
       {indexUi && (
         <div className="card-list">
-          {Cards.map((item) => (
+          {Cards.map((item:CardItem) => (
             <Card
               key={item.id}
               img={item.img}

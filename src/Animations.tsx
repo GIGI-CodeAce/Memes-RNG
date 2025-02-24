@@ -1,5 +1,6 @@
+type func = Function
 
-  export function LegendaryAnimation(backColor) {
+  export function LegendaryAnimation(backColor:func) {
     backColor('hsl(171, 37%, 35%)');
     const timer = setTimeout(() => {
       backColor('hsl(0, 0%, 11%)');
@@ -8,7 +9,7 @@
     return () => clearTimeout(timer);
   }
 
-  export function UniqueAnimation(backColor, rareRollColor) {
+  export function UniqueAnimation(backColor:func, rareRollColor:func) {
     rareRollColor('hsla(215, 100%, 30%, 0.7)');
 
     const timer1 = setTimeout(() => {
@@ -54,7 +55,7 @@
     };
   }
 
-  export function SupremeAnimation(rareRollColor, backColor) {
+  export function SupremeAnimation(rareRollColor:func, backColor:func) {
     rareRollColor('hsla(0, 0%, 60%, 0.7)'); // White
 
     const timer1 = setTimeout(() => {

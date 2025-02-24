@@ -1,6 +1,7 @@
 import React, { useState, useEffect } from 'react';
+type str = string; type num = number
 
-function Time({ rolls }) {
+function Time({ rolls }:any) {
   const [mins, setMins] = useState(() => {
     const savedMins = localStorage.getItem('mins');
     return savedMins !== null ? JSON.parse(savedMins) : 0;
@@ -18,10 +19,10 @@ function Time({ rolls }) {
 
   useEffect(() => {
     const interval = setInterval(() => {
-      setMins((prevMins) => {
+      setMins((prevMins:num) => {
         const newMins = prevMins + 1;
         if (newMins >= 60) {
-          setHours((prevHours) => prevHours + 1);
+          setHours((prevHours:num) => prevHours + 1);
           return 0;
         }
         return newMins;
@@ -35,7 +36,7 @@ function Time({ rolls }) {
     <div id="timerContainer">
       <span id="time">TimePlayed:</span>
       <span id="timePlayed">
-        {String(hours).padStart(2, '0')}h:{String(mins).padStart(2, '0')}m
+        {String(hours).padStart(2, '0')}h:{String(mins).padStart(2, '0')}
       </span>
       <span id='time'>Roll's: </span>
       <span id="timePlayed">{rolls}</span>

@@ -1,5 +1,5 @@
 import { useState, useEffect } from 'react';
-import GetCards from './CardsInfo.js';
+import GetCards from './CardsInfo';
 
 const useSavedCards = () => {
   const initialCards = () => {
@@ -11,6 +11,7 @@ const useSavedCards = () => {
   const [selectedCard, setSelectedCard] = useState(null);
   const [rolCool, setRolCool] = useState(true);
   const [coolDown, setCoolDown] = useState(669); 
+  type num = number; type str = string
 
   const [rolls, setRolls] = useState(() => {
     const savedRolls = localStorage.getItem('roll');
@@ -21,12 +22,12 @@ const useSavedCards = () => {
     localStorage.setItem('cards', JSON.stringify(Cards));
   }, [Cards]);
 
-  const parseChance = (chance) => {
+  const parseChance = (chance:str) => {
     const parts = chance.split(' in ');
     return parts.length === 2 ? (1 / parseInt(parts[1], 10)) : 0;
   };
 
-  const totalWeight = Cards.reduce((sum, card) => sum + parseChance(card.chance), 0);
+  const totalWeight = Cards.reduce((sum:num, card:any) => sum + parseChance(card.chance), 0);
 
   const getRandomCard = () => {
     const rand = Math.random() * totalWeight;
@@ -41,7 +42,7 @@ const useSavedCards = () => {
   };
 
   const rollsIncrease = () => {
-    setRolls((oldCount) => {
+    setRolls((oldCount:num) => {
       const newCount = oldCount + 1;
       localStorage.setItem('roll', JSON.stringify(newCount));
       return newCount;
@@ -52,7 +53,7 @@ const useSavedCards = () => {
   const rollCard = () => {
       const rolledCard = getRandomCard();
       if (rolledCard) {
-        setCards((prevCards) =>
+        setCards((prevCards:any[]) =>
           prevCards.map((card) =>
             card.id === rolledCard.id ? { ...card, discovered: true } : card
           )

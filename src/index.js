@@ -5,10 +5,10 @@ import Popup from './Popup/popup.jsx';
 
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
-root.render(
-<>
-<Popup/>
-<Index />
-</>
+    root.render(
+        <>
+            <Popup/>
+            <Index />
+        </>
 
-);
+    );

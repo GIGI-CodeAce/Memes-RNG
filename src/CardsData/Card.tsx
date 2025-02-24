@@ -1,6 +1,6 @@
 import React from 'react';
 
-export function SurfaceCard(props) {
+export function SurfaceCard(props: any) {
   return (
 <div className={`${props.rarity} ${props.discovered ? '' : 'card-container'}`}>
       <span id='newCard'>{props.discovered ? '' : 'New!'}</span>
@@ -32,7 +32,7 @@ export function SurfaceCard(props) {
   );
 }
 
-export function Card(props) {
+export function Card(props: any) {
   return (
     <div className={props.rarity} id={props.discovered ? '' : 'opacity'}>
       <p id='title'>{props.title}</p>

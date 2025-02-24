@@ -1,9 +1,9 @@
-const CARDS_VERSION = '1.0.0';
+type str = string
 
-function urlGif(root, name) {
+function urlGif(root:str, name:str) {
   return `https://raw.githubusercontent.com/GIGIsOtherStuff/MRNGmedia/main/Media/CardImages/${root}/${name}.gif`;
 }
-function urlImg(root, name) {
+function urlImg(root:str, name:str) {
   return `https://raw.githubusercontent.com/GIGIsOtherStuff/MRNGmedia/main/Media/CardImages/${root}/${name}.png`;
 }
 
