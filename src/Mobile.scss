@@ -1,18 +1,19 @@
-
+.popup-container{
+  width: 500px;
+}
 /* popup */
 @media only screen and (max-width: 600px) {
-    body .popup-container{
-        width: 310px;
-    }
-    body #exit-settings{
-        left: 89%;
-    }
-    body #big{
-        font-size: 10px;
-    }
+  .popup-container {
+    width: 369px;
+  }
+    #exit-settings {
+    left: 89%;
+  }
 
+  #big {
+    font-size: 10px;
+  }
 }
-
 /* index */
 
 

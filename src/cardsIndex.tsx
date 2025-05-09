@@ -28,6 +28,7 @@ import './Mobile.scss';
     discovered: boolean;
   };
   
+  localStorage.clear()
 
   useEffect(() => {
     if (selectedCard && ['Unique', 'Supreme'].includes(selectedCard.rarity)) {

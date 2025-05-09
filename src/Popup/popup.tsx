@@ -1,5 +1,7 @@
 import React, { useEffect, useState } from 'react';
-import './popup.scss'
+import './popup.scss';
+import '/src/Mobile.scss';
+
 
 function Popup(){
     type num = number
@@ -23,8 +25,8 @@ function Popup(){
     return (
         <>
             {newUser && (
-                <main>
-                    <div className='blur'></div>
+                <main onClick={(e) => e.stopPropagation()}>
+                    <div onClick={(()=>closePop())} className='blur'></div>
                     <section className='popup-container'>
                         <button onClick={closePop} id="exit-settings">X</button>
                         <p>Welcome to..</p> 
