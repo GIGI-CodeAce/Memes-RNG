@@ -1,8 +1,8 @@
 import React, { useEffect, useState } from 'react';
 import './surface.scss';
-import { Card } from './CardsData/Card'; 
+import { MemoCard } from './CardsData/Card'; 
 import UseSavedCards from './CardsData/cardsLocal';
-import { SurfaceCard } from "./CardsData/Card";
+import { MemoSurfaceCard } from "./CardsData/Card";
 import Time from './timePlayed';
 import { SupremeAnimation, UniqueAnimation, LegendaryAnimation } from './Animations.tsx';
 import './index.scss';
@@ -11,24 +11,25 @@ import './Mobile.scss';
  function CardsIndex(){
   const { Cards, rollCard, selectedCard, rolls }:any = UseSavedCards();
   const [indexUi, setIndexUi] = useState(true)
-  const [rareRollColor, setRareRollColor] = useState('black');
-  const [backColor, setBackColor] = useState('hsl(0, 0%, 11%)');
-  const [rareRollStatus, setRareRollStatus] = useState('none');
-  const [btnBackCol, setBtnBackCol] = useState('hsl(0, 0%, 96%)');
-  const [rolCool, setRolCool] = useState(true);
+  const [rareRollColor, setRareRollColor] = useState('black')
+  const [backColor, setBackColor] = useState('hsl(0, 0%, 11%)')
+  const [rareRollStatus, setRareRollStatus] = useState('none')
+  const [btnBackCol, setBtnBackCol] = useState('hsl(0, 0%, 96%)')
+  const [rolCool, setRolCool] = useState(true)
   
   type num= number
+
   type CardItem = {
-    id: string;
-    img: string;
-    rarity: string;
-    chance: number;
-    title: string;
-    desc: string;
-    discovered: boolean;
-  };
+    id: string
+    img: string
+    rarity: string
+    chance: string
+    title: string
+    desc: string
+    discovered: boolean
+  }
   
-  localStorage.clear()
+  // localStorage.clear()
 
   useEffect(() => {
     if (selectedCard && ['Unique', 'Supreme'].includes(selectedCard.rarity)) {
@@ -37,7 +38,7 @@ import './Mobile.scss';
       setTimeout(() => {
         setRolCool(true); 
         setBtnBackCol('hsl(0, 0%, 96%)'); 
-      }, 2000);
+      }, 2222);
     }  else if (selectedCard) {
       setRolCool(false);
       setBtnBackCol('hsl(0, 0%, 50%)');
@@ -71,14 +72,14 @@ import './Mobile.scss';
     if (selectedCard && selectedCard.discovered === false) {
       updateMemes();
     }
-  }, [selectedCard]);
+  }, [selectedCard])
 
   useEffect(() => {
     localStorage.setItem('memesCount', JSON.stringify(memes));
   }, [memes]);
 
   useEffect(() => {
-    let cleanup;
+    let cleanup
 
     if (selectedCard) {
       if (selectedCard.rarity === 'Unique') {
@@ -113,7 +114,7 @@ import './Mobile.scss';
       <div className="mainRoll">
         <div className="card-ui">
           {selectedCard ? (
-            <SurfaceCard key={selectedCard.id} className="newRolledCard" {...selectedCard} />
+            <MemoSurfaceCard key={selectedCard.id} className="newRolledCard" {...selectedCard} />
           ) : (
             <img
               src="https://raw.githubusercontent.com/GIGIsOtherStuff/MRNGmedia/main/Media/mysteryCard.png"
@@ -136,19 +137,19 @@ import './Mobile.scss';
         Memes Index {indexUi ? '˅' : '^'}
       </div>
       {indexUi && (
-        <div className="card-list">
+            <div className="card-list">
           {Cards.map((item:CardItem) => (
-            <Card
-              key={item.id}
-              img={item.img}
-              rarity={item.rarity}
-              chance={item.chance}
-              title={item.title}
-              desc={item.desc}
-              discovered={item.discovered}
-            />
-          ))}
-        </div>
+            <MemoCard
+          key={item.id}
+          img={item.img}
+          rarity={item.rarity}
+          chance={item.chance}
+          title={item.title}
+          desc={item.desc}
+          discovered={item.discovered}
+        />
+      ))}
+    </div>
       )}
       <style>{`
         .rareRoll {
@@ -165,4 +166,4 @@ import './Mobile.scss';
   );
 };
 
-export default CardsIndex;
+export default CardsIndex

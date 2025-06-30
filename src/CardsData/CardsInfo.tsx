@@ -364,4 +364,4 @@ function GetCards() {
   ]
 }
 
-export default GetCards;
+export default GetCards

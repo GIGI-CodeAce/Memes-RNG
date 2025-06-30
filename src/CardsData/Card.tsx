@@ -1,8 +1,17 @@
 import React from 'react';
 
-export function SurfaceCard(props: any) {
+interface SurfaceCardProps{
+  rarity: string
+  chance: string
+  title: string
+  desc: string
+  img: string
+  discovered: boolean
+}
+
+  function SurfaceCard(props: SurfaceCardProps) {
   return (
-<div className={`${props.rarity} ${props.discovered ? '' : 'card-container'}`}>
+    <div className={`${props.rarity} ${props.discovered ? '' : 'card-container'}`}>
       <span id='newCard'>{props.discovered ? '' : 'New!'}</span>
       <p id="title">{props.title}</p>
       <img className="images" src={props.img} alt={props.title} />
@@ -32,12 +41,12 @@ export function SurfaceCard(props: any) {
   );
 }
 
-export function Card(props: any) {
+  function Card(props: SurfaceCardProps) {
   return (
     <div className={props.rarity} id={props.discovered ? '' : 'opacity'}>
       <p id='title'>{props.title}</p>
       <img
-        className='images'
+        className='images' loading='lazy'
       src={props.discovered ? props.img : (props.rarity === 'Supreme' ? 
         'https://raw.githubusercontent.com/GIGIsOtherStuff/MRNGmedia/main/Media/CardImages/questionMark2.png' : 
         'https://raw.githubusercontent.com/GIGIsOtherStuff/MRNGmedia/main/Media/CardImages/questionMark.png')}
@@ -69,3 +78,6 @@ export function Card(props: any) {
     </div>
   );
 }
+
+export const MemoSurfaceCard = React.memo(SurfaceCard);
+export const MemoCard = React.memo(Card);
